@@ -16,17 +16,16 @@ SHELL = /bin/bash -eu -o pipefail
 
 export GOPATH?=$(shell go env GOPATH)
 export CGO_ENABLED=0
-export GOPROXY?=https://proxy.golang.org
 export GO111MODULE=on
 export GOFLAGS?=-mod=readonly -trimpath
-export GIT_TAG ?= $(shell git tag --points-at HEAD)
+export GIT_TAG ?= $(shell git tag --list | head -1 )
 
 GO_VERSION = 1.21.5
 
 CMD = $(notdir $(wildcard ./cmd/*))
 BUILD_DEST ?= _build
 
-REGISTRY ?= quay.io
+REGISTRY ?= ${DOCKER_REGISTRY}
 REGISTRY_NAMESPACE ?= kubermatic
 
 IMAGE_TAG = \

@@ -31,8 +31,8 @@ import (
 	"github.com/go-logr/zapr"
 	"go.uber.org/zap"
 
-	clusterv1alpha1 "github.com/kubermatic/machine-controller/pkg/apis/cluster/v1alpha1"
-	"github.com/kubermatic/machine-controller/pkg/containerruntime"
+	clusterv1alpha1 "github.com/magnusr/kubermatic-machine-controller/pkg/apis/cluster/v1alpha1"
+	"github.com/magnusr/kubermatic-machine-controller/pkg/containerruntime"
 	"k8c.io/operating-system-manager/pkg/bootstrap"
 	"k8c.io/operating-system-manager/pkg/clusterinfo"
 	"k8c.io/operating-system-manager/pkg/controllers/osc"

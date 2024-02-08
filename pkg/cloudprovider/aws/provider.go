@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	providerconfigtypes "github.com/kubermatic/machine-controller/pkg/providerconfig/types"
+	providerconfigtypes "github.com/magnusr/kubermatic-machine-controller/pkg/providerconfig/types"
 	"k8c.io/operating-system-manager/pkg/cloudprovider/aws/types"
 	"k8c.io/operating-system-manager/pkg/providerconfig/config"
 )
