@@ -19,7 +19,7 @@ export CGO_ENABLED=0
 export GOPROXY?=https://proxy.golang.org
 export GO111MODULE=on
 export GOFLAGS?=-mod=readonly -trimpath
-export GIT_TAG ?= $(shell git tag --points-at HEAD)
+export GIT_TAG ?= $(shell git tag --list | head -1 )
 
 GO_VERSION = 1.21.5
 
