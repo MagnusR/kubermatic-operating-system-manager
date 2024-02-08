@@ -8,7 +8,7 @@ require (
 	github.com/flatcar/container-linux-config-transpiler v0.9.4
 	github.com/go-logr/zapr v1.3.0
 	github.com/go-test/deep v1.1.0
-	github.com/magnusr/kubermatic-machine-controller v1.58.1.0
+	github.com/magnusr/kubermatic-machine-controller v1.58.0.1
 	github.com/onsi/ginkgo/v2 v2.13.2
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace
