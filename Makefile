@@ -26,7 +26,7 @@ GO_VERSION = 1.21.5
 CMD = $(notdir $(wildcard ./cmd/*))
 BUILD_DEST ?= _build
 
-REGISTRY ?= quay.io
+REGISTRY ?= ${DOCKER_REGISTRY}
 REGISTRY_NAMESPACE ?= kubermatic
 
 IMAGE_TAG = \

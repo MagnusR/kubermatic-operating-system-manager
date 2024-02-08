@@ -17,7 +17,7 @@ limitations under the License.
 package types
 
 import (
-	providerconfigtypes "github.com/kubermatic/machine-controller/pkg/providerconfig/types"
+	providerconfigtypes "github.com/magnusr/kubermatic-machine-controller/pkg/providerconfig/types"
 )
 
 type RawConfig struct {
