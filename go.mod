@@ -8,7 +8,7 @@ require (
 	github.com/flatcar/container-linux-config-transpiler v0.9.4
 	github.com/go-logr/zapr v1.3.0
 	github.com/go-test/deep v1.1.0
-	github.com/magnusr/kubermatic-machine-controller v1.58.0.1
+	github.com/magnusr/kubermatic-machine-controller v0.0.0-20240207110204-7b24307aab93
 	github.com/onsi/ginkgo/v2 v2.13.2
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/spf13/pflag v1.0.6-0.20210604193023-d5e0c0615ace
@@ -37,8 +37,8 @@ require (
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/emicklei/go-restful/v3 v3.11.1 // indirect
-	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
+	github.com/emicklei/go-restful/v3 v3.11.2 // indirect
+	github.com/evanphx/json-patch v5.7.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.7.0 // indirect
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/flatcar/ignition v0.36.2 // indirect
